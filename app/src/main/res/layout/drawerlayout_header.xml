@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/drawer_header_height"
+    android:id="@+id/drawerlayout_header"
+    android:background="@color/colorPrimaryDark">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/drawerlayout_header_background_img"
+        android:layout_width="@dimen/drawer_header_headimg_size"
+        android:layout_height="@dimen/drawer_header_headimg_size"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/drawer_header_headimg_magin_top"
+        android:background="@mipmap/ic_launcher"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/company_name"
+        android:textSize="@dimen/tv_company_name_size"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@id/drawerlayout_header_background_img"
+        android:layout_marginTop="@dimen/tv_company_name_margin_top"/>
+
+</RelativeLayout>

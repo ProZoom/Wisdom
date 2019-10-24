@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Wisdom</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="company_name">郑州威仕科技</string>
+    <string name="sync_title">同步数据</string>
+
+
+</resources>
